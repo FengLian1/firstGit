@@ -1,0 +1,130 @@
+.container {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(108, 122, 119, 0.233);
+}
+
+nav {
+    padding: 0px;
+    background-color: hsla(0, 79%, 4%, 0.884);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: rgba(10, 10, 10, 0.233);
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(229, 238, 236, 0.959);
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#a {
+  float: right;
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  margin: 7px 3px 0 0;
+}
+
+form {
+    margin: 0 auto;
+    width: 620px;
+    padding: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.field {
+    font-family : inherit; 
+    font-size: 20px;
+    margin-bottom: 12px;
+    width: 400px;
+    padding: 6px;
+    border: 1px solid #cccccc;
+}
+
+.submit {
+    margin-bottom: 12px;
+    width: 400px;
+    padding: 6px;
+    border: 1px solid #cccccc;
+    background-color: rgb(245, 86, 86);
+}
+
+label.input {
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+select {
+    font-family : inherit; 
+     font-size : 100%;
+    margin-bottom: 12px;
+    width: 190px;
+}
+
+
+section.main {
+    float: left;
+    width: 1180px;
+   margin-left: 100px;
+   background: white;
+   padding: 0 20px;
+   border: 1px solid black; 
+}
+
+div.promotion {
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.information {
+    background: rgba(252, 169, 144, 0.808);
+   padding: 20px;
+   border: 1px solid black; 
+   color: #302e2e;
+}
+
+div.gallery {
+    float: left;
+    margin: 18px;
+    padding: 12px;
+    background-color: rgba(108, 122, 119, 0.233);
+    width: 332px;
+}
+
+div ul {
+    padding: 12px;
+    margin: 0;
+}
+
+footer {
+    clear: both;
+    background-color: rgba(108, 122, 119, 0.233);
+    padding: 10px;
+    text-align: center; 
+}
+
