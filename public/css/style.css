@@ -72,6 +72,14 @@ form {
     background-color: rgb(245, 86, 86);
 }
 
+.error {
+    margin-bottom: 12px;
+    padding: 6px;
+    width: 450px;
+    border: 1px solid #cccccc;
+    background-color: rgb(245, 86, 86);
+}
+
 label.input {
     display: inline-block;
     text-align: left;

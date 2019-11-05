@@ -1,0 +1,17 @@
+<section class="main">
+  <h2>Login Form</h2>
+
+  {{#each login}}
+        <div class = "error">{{this}}</div>
+  {{/each}}
+
+  <form action="/login" method="POST" name="login">
+    <p>Login with <a href="https://www.facebook.com/">Fackbook</a> or <a href="https://www.google.com/">Google</a></p><br>
+
+    <input type="text" name="username" placeholder="Username" class="field"><br>
+    <input type="password" name="password" placeholder="Password" class="field"><br>
+ <br>
+  <input type="submit" class="submit">
+
+  </form>
+</section>

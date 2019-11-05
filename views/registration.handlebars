@@ -1,6 +1,9 @@
 <section class="main">
   <h2>Registion Form</h2>
-  <form action="server.js" name="signup" method="post">
+    {{#each regis}}
+        <div class = "error">{{this}}</div>
+  {{/each}}
+  <form action="/registration" name="signup" method="POST">
     <p>Sign up with <a href="https://www.facebook.com/">Fackbook</a> or <a href="https://www.google.com/">Google</a></p><br>
 
     <input type="email" name="email" placeholder="Email address" class="field"><br>
