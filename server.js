@@ -14,7 +14,7 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //connect to MongoDB in the cloud
-const cstring = "mongodb+srv://flian2:assignment3@cluster0-53fk4.mongodb.net/test?retryWrites=true&w=majority";
+const cstring = "mongodb+srv://flian2:test4@cluster0-53fk4.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(cstring, {useNewUrlParser: true})
 .then(()=>{
     console.log(`Database is connected`)
