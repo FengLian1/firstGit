@@ -3,13 +3,14 @@
     {{#each regis}}
         <div class = "error">{{this}}</div>
   {{/each}}
-  <form action="/registration" name="signup" method="POST">
+  <form action="/User/registration" name="signup" method="POST">
     <p>Sign up with <a href="https://www.facebook.com/">Fackbook</a> or <a href="https://www.google.com/">Google</a></p><br>
-
+    <input type="text" name="userName" placeholder="User name" class="field"><br>
     <input type="email" name="email" placeholder="Email address" class="field"><br>
     <input type="text" name="first" placeholder="First name" class="field"><br>
     <input type="text" name="last" placeholder="Last name" class="field"><br>
     <input type="password" name="password" placeholder="Create a Password" class="field"><br>
+    <input type="password" name="password2" placeholder="Confirm Password" class="field"><br>
     <label class="input">Birthday</label><br>
     <p>to sign up, you need to be at least 18, Other people who use Airbnb won't see your birthday</p><br>
 

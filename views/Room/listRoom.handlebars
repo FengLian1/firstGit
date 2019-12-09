@@ -1,0 +1,7 @@
+      <h2>List Room</h2>
+     {{#each lists}} 
+     <div>
+        {{this.title}} &nbsp;&nbsp;
+        <a href="/Room/edit/{{this._id}}">Edit</a>&nbsp;&nbsp;
+    </div>
+     {{/each}}

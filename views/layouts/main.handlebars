@@ -3,26 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>Main</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class = "container">
     <header>
-        <img src="image/logo.png" alt="logo" width = "70" height="70">
+        <img src="/image/logo.png" alt="logo" width = "70" height="70">
         <h1 id = "#q">Air B&B</h1>
         <input type="text" placeholder="Search.." id = "a">
     </header>
     <nav>
         <ul>
             <li><a href="/">Home</a> &nbsp; </li>
-            <li><a href="registration">Sign up</a> &nbsp; </li>
-            <li><a href="login">Login</a> &nbsp; </li>
-            <li><a href="room_listing ">Room Listing</a> &nbsp; </li>
+            <li><a href="/Room/room_listing ">Room Listing</a> &nbsp; </li>
+            {{#if user}}
+                <li><a href="/User/{{user.type}}Dashboard">{{user.type}} Dashboard</a> &nbsp; </li>
+                {{!-- <li><a href="/User/adminDashboard">Admin Dashboard</a> &nbsp; </li> --}}
+            {{else}}
+            <li><a href="/User/registration">Sign up</a> &nbsp; </li>
+            <li><a href="/User/login">Login</a> &nbsp; </li>
+            {{/if}}    
         </ul>
         
     </nav>
     
-    {{{body}}}
+    {{{body}}} 
  
   
 

@@ -31,9 +31,17 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgba(229, 238, 236, 0.959);
-    
+    color: rgba(229, 238, 236, 0.959);  
 }
+
+.button {
+    padding: 5px;
+    margin: 2px;
+    background: rgba(10, 10, 10, 0.233);
+    text-decoration: none;
+    color: rgba(229, 238, 236, 0.959);  
+}
+
 
 nav ul li a:hover {
     text-decoration: underline;

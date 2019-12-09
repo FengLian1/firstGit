@@ -1,0 +1,16 @@
+<section class="main">
+
+
+   {{#each lists}}
+      <div class = "gallery">
+         <img src="/uploads/db_{{this._id}}.jpg" alt="1" width = 280px height = 220px>
+         <h4>{{this.title}}</h4>
+         <ul>
+            <li>{{this.description}}</li>
+            <li>{{this.location}}</li>
+            <li>{{this.price}}</li>
+         </ul>   
+         </div>
+      
+   {{/each}}
+</section>
